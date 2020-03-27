@@ -1,0 +1,27 @@
+{
+  "name": "todo-list-api",
+  "version": "0.0.1",
+  "description": "RESTful API for a todo list.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=10.16.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvibrich/todo-api"
+  },
+  "author": "Vinicius Vibrich",
+  "license": "MIT",
+  "homepage": "https://github.com/vvibrich/todo-api#readme",
+  "dependencies": {
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "mongoose": "^5.6.7",
+    "node-cache": "^4.2.1",
+    "nodemon": "^2.0.2"
+  }
+}
